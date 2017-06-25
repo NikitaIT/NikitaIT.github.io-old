@@ -2,8 +2,8 @@ title: Stack Problems
 description: My Personal Stack Problems
 author: Nikita Fiodorov
 github: https://github.com/nikitait
-about: I am freelance developer. Currently doing more in backend, focused in Python and Django.
-disqus_shortname: stackproblems
+about: I am freelance developer.
+disqus_shortname: https-nikitait-github-io
 google_analytics: UA-XXXXXXXX-Y
 avatar_url: /static/img/avatar.jpg
 
@@ -16,21 +16,23 @@ collections:
     permalink: /project/:path/
 
 social:
+    - icon: fa-vk
+      link: "https://vk.com/handlebar"
     - icon: fa-facebook
       link: "#"
     - icon: fa-twitter
-      link: "https://twitter.com/agusmakmun6"
-    - icon: fa-linkedin
-      link: "https://www.linkedin.com/in/summonagus"
-    - icon: fa-stack-exchange
       link: "#"
+    - icon: fa-linkedin
+      link: "#"
+    - icon: fa-stack-exchange
+      link: "https://russian.stackexchange.com/users/9166/%D0%9D%D0%B8%D0%BA%D0%B8%D1%82%D0%B0-%D0%A4%D1%91%D0%B4%D0%BE%D1%80%D0%BE%D0%B2"
     - icon: fa-github
-      link: "https://github.com/agusmakmun"
+      link: "https://github.com/nikitait"
 
 share:
-  twitter_username: agusmakmun6
-  fb_appid: 1749788565247320
-
+  twitter_username: nikitait
+  fb_appid: 0000000000000000
+            
 urls:
     - text: About Me
       url: /about/
@@ -39,7 +41,7 @@ urls:
     - text: XML Feed
       url: /feed.xml
 
-url: "https://agusmakmun.github.io"
+url: "https://nikitait.github.io"
 baseurl: ""
 paginate: 20
 per_page: 20

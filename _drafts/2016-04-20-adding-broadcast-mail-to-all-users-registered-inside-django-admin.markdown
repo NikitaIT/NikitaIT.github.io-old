@@ -10,7 +10,7 @@ Adding BroadCast Mail to All User Registered in Django Admin. This is my last pr
 
 This problem has been helped by our Danny W. Adair who are answered someone's question about the ["Django Admin Customizing"](http://stackoverflow.com/a/5803941/3445802).
 
-> In this configuration, we use gmail for email backend. Please following this tutorial first [Email BackEnd with SMTP Gmail](https://agusmakmun.github.io/python/django/2016/04/18/email-backend-with-smtp-gmail.html).
+> In this configuration, we use gmail for email backend. Please following this tutorial first [Email BackEnd with SMTP Gmail](https://nikitait.github.io/python/django/2016/04/18/email-backend-with-smtp-gmail.html).
 
 -----
 
@@ -82,4 +82,4 @@ admin.site.register(models.BroadCast_Email, BroadCast_Email_Admin)
 
 **3.** And then, you can see. we have **Submit BroadCast** selection, just click button **Go** to submit broadcast mail.
 
-![Screenshot broadcast](https://raw.githubusercontent.com/agusmakmun/agusmakmun.github.io/master/static/img/_posts/Broadcast_Mail.png  "Screenshot broadcast")
+![Screenshot broadcast](https://raw.githubusercontent.com/nikitait/nikitait.github.io/master/static/img/_posts/Broadcast_Mail.png  "Screenshot broadcast")
