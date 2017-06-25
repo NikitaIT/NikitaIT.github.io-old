@@ -5,7 +5,7 @@ date:   2017-06-25 16:19:23 +0700
 image: jakyll-blog-logo.jpg
 categories: [jakyll]
 ---
-![Jakyll logo]({{ site.url }}/static/img/posts/jakyll-blog-logo.jpg  "Jakyll logo")
+![Jakyll logo]({{ site.url }}{{ page.url }}/static/img/posts/jakyll-blog-logo.jpg  "Jakyll logo")
 [Jekyll](https://jekyllrb.com/) - это генератор статического сайта, разработанный на `ruby`, который генерирует веб-сайты из `markdown` и многих других форматов.
 
 ## Почему стоит использовать именно его?
