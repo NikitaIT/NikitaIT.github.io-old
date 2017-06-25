@@ -6,7 +6,7 @@ image: jakyll-blog-logo.jpg
 permalink: "jakyll-blog"
 categories: [jakyll]
 ---
-![Jakyll logo]({{ site.url }}{{ post.url }}/static/img/posts/jakyll-blog-logo.jpg  "Jakyll logo")
+![Jakyll logo]({{ site.baseurl }}/static/img/posts/jakyll-blog-logo.jpg  "Jakyll logo")
 [Jekyll](https://jekyllrb.com/) - это генератор статического сайта, разработанный на `ruby`, который генерирует веб-сайты из `markdown` и многих других форматов.
 
 ## Почему стоит использовать именно его?
