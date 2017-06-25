@@ -3,6 +3,7 @@ layout: post
 title:  "Reverse Engineering для девочек"
 date:   2017-06-25 16:42:23 +0700
 image: jakyll-blog-logo.jpg
+permalink: "reverse-engineering"
 categories: [asm,reverse,security,c]
 ---
 
@@ -26,7 +27,7 @@ categories: [asm,reverse,security,c]
 
 Установите требуемые инструменты и приступим.
 
-Скачайте [файл]({{ site.url }}{{ page.url }}/static/download/reverse-engineering/task.exe)(на свой страх и риск), он содержит простую программу на `c++` скомпилированную с множеством ключей, для усложнения(?) разбора. 
+Скачайте [файл]({{ site.url }}{{ post.url }}/static/download/reverse-engineering/task.exe)(на свой страх и риск), он содержит простую программу на `c++` скомпилированную с множеством ключей, для усложнения(?) разбора. 
 
 Откройте консоль в папке с загружееным файлом(shift+ПКМ -> Открыть окно команд) и выполните его.
 ```
