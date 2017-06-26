@@ -33,10 +33,19 @@ categories: [jakyll]
 
 - Файлы темы лежат вместе с остальными камнями, а значит, если вы хотите больше контроля, то рекомендую прямое скачивание и ручную установку.
 
-Чего не сказано в доках? После развёртывания необходимо обновить `Gemfile.lock`.
+Чего не сказано в разделе установки через bash? После развёртывания необходимо обновить `Gemfile.lock`. Эти команды распологаются на главной странице сайта.
 {% highlight bash %}
-$ sudo jekyll new . 
-$ sudo bundle update
-$ sudo jekyll serve --no-watch
+$ sudo jekyll new .
+$ sudo bundle install
+$ sudo bundle exec jekyll serve --no-watch
 {% endhighlight %}
 И установить `nodejs` тоже не забудьте.
+
+## Решение
+Чтобы всё стабильно работало пользуйтесь установкой с помощью [RubyInstaller](https://rubyinstaller.org/) и не мучайтесь.
+
+Решения возникающих проблем:
+`Prepending **bundle exec** to your command may solve this.`
+{% highlight bash %}
+bundle clean --force
+{% endhighlight %}
