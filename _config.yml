@@ -21,6 +21,14 @@ social:
       link: "https://vk.com/handlebar"
     - icon: fa-stack-exchange
       link: "https://russian.stackexchange.com/users/9166/%D0%9D%D0%B8%D0%BA%D0%B8%D1%82%D0%B0-%D0%A4%D1%91%D0%B4%D0%BE%D1%80%D0%BE%D0%B2"
+    - icon: fa-stack-overflow
+      link: "https://stackoverflow.com/users/7214691/%D0%9D%D0%B8%D0%BA%D0%B8%D1%82%D0%B0-%D0%A4%D1%91%D0%B4%D0%BE%D1%80%D0%BE%D0%B2"
+    - icon: fa-header
+      link: "https://spb.hh.ru/resume/52cb69c2ff03275ca40039ed1f6d4763686952"
+    - icon: fa-strikethrough
+      link: "https://stepik.org/users/15056867"
+    - icon: fa-paper-plane
+      link: "https://t.me/NonNikita"
     - icon: fa-github
       link: "https://github.com/nikitait"
 

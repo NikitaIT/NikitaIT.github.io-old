@@ -4,7 +4,7 @@ title:  "Reverse Engineering для девочек"
 date:   2017-06-25 16:42:23 +0700
 image: jakyll-blog-logo.jpg
 permalink: "reverse-engineering"
-categories: [asm,reverse,security,c]
+categories: [asm,reverse,masm,security,c]
 ---
 
 ## Введение
@@ -27,7 +27,7 @@ categories: [asm,reverse,security,c]
 
 Установите требуемые инструменты и приступим.
 
-Скачайте [файл]({{ site.baseurl }}/static/download/reverse-engineering/task.exe)(на свой страх и риск), он содержит простую программу на `c++` скомпилированную с множеством ключей, для усложнения(?) разбора. 
+Скачайте [файл]({{ site.baseurl }}/static/download/reverse-engineering/task.ex)(на свой страх и риск, измените `.ex` на `.exe`), он содержит простую программу на `c++` скомпилированную с множеством ключей, для усложнения(?) разбора. 
 
 Откройте консоль в папке с загружееным файлом(shift+ПКМ -> Открыть окно команд) и выполните его.
 ```
@@ -98,6 +98,7 @@ lea     eax, [ebp+var_C]    ; eax = ebp+var_C адрес массива
 add     eax, esi            ; eax = eax+esi адрес esiтого элемента
 push    eax                 ; помещение 2 аргумента в стек (int)
 push    offset aHhu         ; помещение 1 аргумента в стек  (int)
+call	_scanf						/* scanf("%hhu", inputCharArray + i);*/
 add     esp, 8              ; возвращение указателя стека 4+4 = 2*(int)
 {% endhighlight %}
 
@@ -157,6 +158,62 @@ int main()
   printf("\n");
   return 0;
 }
+{% endhighlight %}
+
+В дополнение, привожу код написанный на [masm](https://ru.wikipedia.org/wiki/MASM) для _подобной_ программы и даю вам возможность изучить его самостоятельно. 
+{% highlight masm %}
+.386
+.model flat,stdcall
+option casemap: none
+include \masm32\include\msvcrt.inc
+include /masm32/include/user32.inc
+include \masm32\include\kernel32.inc
+includelib \masm32\lib\msvcrt.lib
+includelib /masm32/lib/user32.lib
+includelib \masm32\lib\kernel32.lib
+include /masm32/macros/macros.asm 
+uselib masm32, comctl32, ws2_32 
+
+ArrayPtrMacro macro ; получение &arr[i]
+		mov	eax, [esp+1Ch]
+		lea	edx, [esp+13h]
+		add	eax, edx
+		endm	
+.CODE
+main PROC
+		invoke crt_printf, chr$("Please, enter 5 unsigned decimal numbers from 0 to 255: ")
+		mov	dword	ptr [esp+1Ch], 0                ; i
+.REPEAT
+		ArrayPtrMacro
+		invoke crt_scanf, chr$("%hhu"), eax
+		ArrayPtrMacro
+		movzx	eax, byte ptr [eax]                 ; дополнение нулями(приведение типа)
+		mov	ecx, eax
+		ArrayPtrMacro
+		movzx	eax, byte ptr [eax]                 
+		mov	edx, dword	ptr  [esp+1Ch]
+		xor	eax, edx ;^
+		sub	ecx, eax ;-
+		mov	eax, ecx 
+		sub	eax, 59h ;-
+		mov	ecx, eax
+		ArrayPtrMacro
+		mov	[eax], cl
+		inc dword	ptr  [esp+1Ch]
+.UNTIL dword	ptr [esp+1Ch]==5
+		invoke crt_printf, chr$("Result (decimal): ")
+.REPEAT
+		lea	edx, byte ptr [esp+13h]
+		mov	eax, dword	ptr [esp+18h]
+		add	eax, edx
+		movzx	eax, byte ptr [eax]
+		movzx	eax, al                             ; cast to uchar
+		invoke crt_printf, chr$("%hhu "), eax
+		inc dword	ptr [esp+18h]
+.UNTIL dword	ptr [esp+18h]==5
+	invoke ExitProcess, 0
+main ENDP
+END main
 {% endhighlight %}
 
 Это задание было практикой второго курса по направлению "Компьютерная безопасность" в моём университете.
