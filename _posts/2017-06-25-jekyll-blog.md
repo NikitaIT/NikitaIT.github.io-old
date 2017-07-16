@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Jakyll и Windows 10"
+title:  "Jekyll и Windows 10"
 date:   2017-06-25 16:19:23 +0700
 image: jakyll-blog-logo.jpg
 permalink: "jakyll-blog"
