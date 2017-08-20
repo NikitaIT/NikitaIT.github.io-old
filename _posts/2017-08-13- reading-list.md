@@ -11,10 +11,31 @@ categories: [portfolio,books]
 
 Тут должны быть крутые ниги.
 
+А вот и они:
+
+<pre style="font-size:smaller;">
+------       05.05.2017      5:47        4132244 Ben-Gan_I._Microsoft_SQL_Server_2012_Osnovy_T-SQL.pdf
+------       05.05.2017      5:47        9327357 Chakon_S._Git_dla_professionalnogo_programmista.pdf
+------       05.05.2017      5:47        2619468 Gamma_E._Priemy_obiektno-orientirovannogo_proektirovania.pdf
+------       05.05.2017      5:47        4132168 Goldstein_S._Optimizacia_prilozhenii_na_platforme_NET.pdf
+------       05.05.2017      5:47       15261486 Kleinberg_J._Algoritmy_Razrabotka_i_primenenie.pdf
+------       05.05.2017      5:47       15864316 Martin_R._Chistyy_kod_sozdanie_analiz_i_refaktoring.pdf
+------       05.05.2017      5:35        2911219 NHibernate_Succinctly.pdf
+------       05.05.2017      5:47        4208035 Siman_M._Vnedrenie_zavisimostei_v_NET.pdf
+------       05.05.2017      5:47        4100462 Stivens_R._Algoritmy_teoriya_i_prakticheskoe_primenenie.pdf
+------       05.05.2017      5:47        3785111 Teplyakov_S._Patterny_proektirovaniya_na_platforme_DotNet.pdf
+------       05.05.2017      5:40        6809131 Vaysfeld_M._Obektno_orientirovannoe_myshlenie.pdf
+------       05.05.2017      5:48        3443796 Wood_K._Rashirenie_biblioteki_jQuery.pdf
+------       05.05.2017      5:33       10692389 Г. Лакман Макдауэлл Кареьера программиста 6-е издание.zip
+------       05.05.2017      5:34        2262940 Рой Ошероув Искусство автономного тестирования с примерами на C#.pdf
+------       05.05.2017      5:32        2323352 Фаулер М. Рефакторинг. Улучшение существующего кода.pdf
+------       05.05.2017      5:48        6027654 Чед Фаулер Программист фанатик.rar
+</pre>
+
 ## В процессе
 
-Мартин Фаулер
-- Рефакторинг. Улучшение существующего кода
+Эрик Фримен, Э. Робсон
+- Изучаем программирование на JavaScript
 
 ## Не дочитано
 
@@ -28,6 +49,16 @@ categories: [portfolio,books]
 - Алгоритмические трюки для программистов
 
 ## Прочитанное
+
+Мартин Фаулер
+- Рефакторинг. Улучшение существующего кода
+
+Александр Швец
+- [Design Patterns Explained Simply](sourcemaking.com)
+- [Refactoring Course(Погружение в Рефакторинг)](refactoring.guru)
+
+Джозеф Албахари
+- LINQ. Карманный справочник
 
 Джеффри Рихтер
 - CLR via C#. Программирование на платформе Microsoft.NET Framework 4.5 на языке C#
