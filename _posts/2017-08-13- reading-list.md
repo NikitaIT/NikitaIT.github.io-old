@@ -14,7 +14,6 @@ categories: [portfolio,books]
 А вот и они:
 
 <pre style="font-size:smaller;">
-------       05.05.2017      5:47        4132244 Ben-Gan_I._Microsoft_SQL_Server_2012_Osnovy_T-SQL.pdf
 ------       05.05.2017      5:47        9327357 Chakon_S._Git_dla_professionalnogo_programmista.pdf
 ------       05.05.2017      5:47        2619468 Gamma_E._Priemy_obiektno-orientirovannogo_proektirovania.pdf
 ------       05.05.2017      5:47        4132168 Goldstein_S._Optimizacia_prilozhenii_na_platforme_NET.pdf
@@ -34,8 +33,11 @@ categories: [portfolio,books]
 
 ## В процессе
 
-Эрик Фримен, Э. Робсон
-- Изучаем программирование на JavaScript
+Ben-Gan_I.
+- Microsoft_SQL_Server_2012_Osnovy_T-SQL
+
+Фримен А.
+- Angular для профессионалов.
 
 ## Не дочитано
 
@@ -49,6 +51,9 @@ categories: [portfolio,books]
 - Алгоритмические трюки для программистов
 
 ## Прочитанное
+
+Эрик Фримен, Э. Робсон
+- Изучаем программирование на JavaScript
 
 Мартин Фаулер
 - Рефакторинг. Улучшение существующего кода
