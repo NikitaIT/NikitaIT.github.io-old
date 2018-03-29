@@ -10,7 +10,7 @@ dist/index.html: _site/index.html
 	cp $< $@
 
 deploy: all
-	sudo bundle exec jekyll build
+	bundle exec jekyll build
 	cd _site && \
 	git add --all && \
 	git commit -m "Deploy to gh-pages" && \
