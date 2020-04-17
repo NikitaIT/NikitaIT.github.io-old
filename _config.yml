@@ -40,7 +40,7 @@ urls:
     - text: About Me
       url: /about/
     - text: My Projects
-      url: /projects/
+      url: /Projects/
     - text: XML Feed
       url: /feed.xml
 
