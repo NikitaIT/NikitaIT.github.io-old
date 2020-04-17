@@ -17,7 +17,7 @@ categories: [jakyll]
 
 + Поддерживает дополнения на `ruby` и использует [Liquid](https://github.com/Shopify/liquid/wiki) для создания шаблонов
 
-+ Простая интеграция с `julp`(есть готовые [решения](https://github.com/shakyShane/jekyll-gulp-sass-browser-sync))
++ Простая интеграция с `gulp`(есть готовые [решения](https://github.com/shakyShane/jekyll-gulp-sass-browser-sync))
 
 + `--watch` из коробки
 
