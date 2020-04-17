@@ -1,0 +1,133 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="shortcut icon" href="/static/img/favicon.ico" /><title>Reverse Engineering для девочек - Stack Problems</title><meta name="author" content="Nikita Fiodorov" /><meta name="description" content="Reverse Engineering для девочек" /><meta name="keywords" content="Reverse Engineering для девочек, Stack Problems, asm, reverse, masm, security, c" /><link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml"><meta content="0" property="fb:app_id"><meta content="Stack Problems" property="og:site_name"><meta content="Reverse Engineering для девочек" property="og:title"><meta content="article" property="og:type"><meta content="My Personal Stack Problems" property="og:description"><meta content="https://nikitait.github.io/reverse-engineering" property="og:url"><meta content="2017-06-25T12:42:23+03:00" property="article:published_time"><meta content="https://nikitait.github.io/about/" property="article:author"><meta content="https://nikitait.github.io/static/img/posts/jakyll-blog-logo.jpg" property="og:image"><meta content="asm" property="article:section"><meta name="twitter:card" content="summary"><meta name="twitter:site" content="@nikitait"><meta name="twitter:creator" content="@nikitait"><meta name="twitter:title" content="Reverse Engineering для девочек"><meta name="twitter:url" content="https://nikitait.github.io/reverse-engineering"><meta name="twitter:description" content="My Personal Stack Problems"><link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous"><link rel="stylesheet" href="/static/css/syntax.css"><link href="/static/css/bootstrap.min.css" rel="stylesheet"><link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300italic,300,400italic,700&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css"><link rel="stylesheet" href="/static/css/super-search.css"><link rel="stylesheet" href="/static/css/thickbox.css"><link rel="stylesheet" href="/static/css/projects.css"><link rel="stylesheet" href="/static/css/main.css"> <script> (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','https://www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-XXXXXXXX-Y', 'auto'); ga('send', 'pageview'); </script><body><div class="container"><div class="col-sm-3"><div class="fixed-condition"> <a href="/"><img class="profile-avatar" src="/static/img/avatar.jpg" height="75px" width="75px" /></a><h1 class="author-name">Nikita Fiodorov</h1><div class="profile-about"> I am freelance developer.</div><div class="social"><ul><li><a href="https://vk.com/handlebar" target="_blank"><i class="fa fa-vk"></i></a><li><a href="https://russian.stackexchange.com/users/9166/%D0%9D%D0%B8%D0%BA%D0%B8%D1%82%D0%B0-%D0%A4%D1%91%D0%B4%D0%BE%D1%80%D0%BE%D0%B2" target="_blank"><i class="fa fa-stack-exchange"></i></a><li><a href="https://stackoverflow.com/users/7214691/%D0%9D%D0%B8%D0%BA%D0%B8%D1%82%D0%B0-%D0%A4%D1%91%D0%B4%D0%BE%D1%80%D0%BE%D0%B2" target="_blank"><i class="fa fa-stack-overflow"></i></a><li><a href="https://spb.hh.ru/resume/52cb69c2ff03275ca40039ed1f6d4763686952" target="_blank"><i class="fa fa-header"></i></a><li><a href="https://stepik.org/users/15056867" target="_blank"><i class="fa fa-strikethrough"></i></a><li><a href="https://t.me/NonNikita" target="_blank"><i class="fa fa-paper-plane"></i></a><li><a href="https://github.com/nikitait" target="_blank"><i class="fa fa-github"></i></a></ul></div><div class="search" id="js-search"> <input type="text" placeholder="(sitemap)~$ type to search" class="search__input form-control" id="js-search__input"><ul class="search__results" id="js-search__results"></ul></div><hr /><ul class="sidebar-nav"> <strong>Navigation</strong><li><a href="/">Home</a><li><a class="about" href="/about/">About Me</a><li><a class="about" href="/projects/">My Projects</a><li><a class="about" href="/feed.xml">XML Feed</a></ul></div></div><div class="col-sm-8 col-offset-1 main-layout"><header class="post-header"><h1 class="post-title">Reverse Engineering для девочек</h1></header><span class="time">25 Jun 2017</span> <span class="categories"> &raquo; <a href="/category/asm">asm</a>, <a href="/category/reverse">reverse</a>, <a href="/category/masm">masm</a>, <a href="/category/security">security</a>, <a href="/category/c">c</a> </span><div class="content"><div class="post"><h2 id="введение">Введение</h2><p>Название соответствует содержанию, оно краткое и не предполагает глубокое погружение в решаемую задачу. Использован так называемый “инженерный” подход.<h3 id="инструменты">Инструменты:</h3><ul><li><p>IDA Pro + HexRays (скачать можно на RuTracker)<li><p>gcc или другой компилятор<li><p>А больше ничего и не надо</ul><h3 id="цели-и-задачи-этого-поста">Цели и задачи этого поста:</h3><ul><li>Написать функциональный аналог программы имея только <code class="language-plaintext highlighter-rouge">.exe</code> файл</ul><h2 id="разбор">Разбор</h2><p>Если вы не хотите использовать декомпиляцию, рекомендую почитать про <a href="https://ru.wikibooks.org/wiki/%D0%90%D1%81%D1%81%D0%B5%D0%BC%D0%B1%D0%BB%D0%B5%D1%80_%D0%B2_Linux_%D0%B4%D0%BB%D1%8F_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%81%D1%82%D0%BE%D0%B2_C">ассемблер в Linux для программистов C</a>, однако, для понимания происходящего в этой статье, вам этого не понадобится.<p>Установите требуемые инструменты и приступим.<p>Скачайте <a href="/static/download/reverse-engineering/task.ex">файл</a>(на свой страх и риск, измените <code class="language-plaintext highlighter-rouge">.ex</code> на <code class="language-plaintext highlighter-rouge">.exe</code>), он содержит простую программу на <code class="language-plaintext highlighter-rouge">c++</code> скомпилированную с множеством ключей, для усложнения(?) разбора.<p>Откройте консоль в папке с загружееным файлом(shift+ПКМ -&gt; Открыть окно команд) и выполните его.<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>task.exe
+#Please, enter 5 unsigned decimal numbers from 0 to 255:
+1 1 1 1 1
+#Result (decimal):
+#166 165 164 163 162
+</code></pre></div></div><p>Анализируем увиденное:<ul><li><p>Консольное приложение.<li><p>Две <code class="language-plaintext highlighter-rouge">string</code>, попробуем их найти в коде.</ul><p>Откройте <code class="language-plaintext highlighter-rouge">IDA Pro</code>, нажмите <code class="language-plaintext highlighter-rouge">New</code>, найдите и откройте скачанный <code class="language-plaintext highlighter-rouge">task.exe</code>, в всплывшем окне ничего не меняя нажмите <code class="language-plaintext highlighter-rouge">Ok</code>. На боковой панели - список функций, на основной - их отображение. Далее кликните(ПКМ) по любой функции в основной панели и выберите <code class="language-plaintext highlighter-rouge">Text view</code>, перед вами ассемблерный код в синтаксисе <code class="language-plaintext highlighter-rouge">Intel</code>. Проматайте файл в начало, нажмите в верхней панели на <code class="language-plaintext highlighter-rouge">бинокль T</code> выполните поиск фрагмента строки. Результат<figure class="highlight"><pre><code class="language-asm" data-lang="asm">push    offset aPleaseEnterUUn ;'Please, enter %u unsigned decimal numbers from 0 to 255:',0Ah,0</code></pre></figure><p>Нажмите <code class="language-plaintext highlighter-rouge">F5</code>, в случае если вы установили IDA Pro с HexRays перед вами окажется псевдокод(<code class="language-plaintext highlighter-rouge">C</code>).<figure class="highlight"><pre><code class="language-c" data-lang="c"><span class="kt">int</span> <span class="nf">sub_4012E0</span><span class="p">()</span>
+<span class="p">{</span>
+  <span class="kt">unsigned</span> <span class="kt">int</span> <span class="n">v0</span><span class="p">;</span> <span class="c1">// esi@1</span>
+  <span class="n">HMODULE</span> <span class="n">v1</span><span class="p">;</span> <span class="c1">// eax@3</span>
+  <span class="kt">unsigned</span> <span class="kt">int</span> <span class="n">v2</span><span class="p">;</span> <span class="c1">// edx@3</span>
+  <span class="kt">char</span> <span class="n">v3</span><span class="p">;</span> <span class="c1">// bl@3</span>
+  <span class="kt">unsigned</span> <span class="kt">int</span> <span class="n">v4</span><span class="p">;</span> <span class="c1">// esi@5</span>
+  <span class="kt">char</span> <span class="n">v6</span><span class="p">;</span> <span class="c1">// [sp+4h] [bp-Ch]@1</span>
+  <span class="kt">int</span> <span class="n">v7</span><span class="p">;</span> <span class="c1">// [sp+5h] [bp-Bh]@1</span>
+
+  <span class="n">v6</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+  <span class="n">v7</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+  <span class="n">sub_401280</span><span class="p">(</span><span class="s">"Please, enter %u unsigned decimal numbers from 0 to 255:</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="mi">5</span><span class="p">);</span>
+  <span class="n">v0</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+  <span class="k">do</span>
+    <span class="n">sub_4012B0</span><span class="p">(</span><span class="s">"%hhu"</span><span class="p">,</span> <span class="p">(</span><span class="kt">char</span><span class="p">)(</span><span class="o">&amp;</span><span class="n">v6</span> <span class="o">+</span> <span class="n">v0</span><span class="o">++</span><span class="p">));</span>
+  <span class="k">while</span> <span class="p">(</span> <span class="n">v0</span> <span class="o">&lt;</span> <span class="mi">5</span> <span class="p">);</span>
+  <span class="n">v1</span> <span class="o">=</span> <span class="n">GetModuleHandleW</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>
+  <span class="n">v2</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+  <span class="n">v3</span> <span class="o">=</span> <span class="o">*</span><span class="p">(</span><span class="n">_BYTE</span> <span class="o">*</span><span class="p">)</span><span class="n">v1</span> <span class="o">+</span> <span class="o">*</span><span class="p">((</span><span class="n">_BYTE</span> <span class="o">*</span><span class="p">)</span><span class="n">v1</span> <span class="o">+</span> <span class="mi">1</span><span class="p">);</span>
+  <span class="k">do</span>
+  <span class="p">{</span>
+    <span class="o">*</span><span class="p">(</span><span class="o">&amp;</span><span class="n">v6</span> <span class="o">+</span> <span class="n">v2</span><span class="p">)</span> <span class="o">=</span> <span class="n">v3</span> <span class="o">^</span> <span class="p">(</span><span class="n">v2</span> <span class="o">+</span> <span class="o">*</span><span class="p">(</span><span class="o">&amp;</span><span class="n">v6</span> <span class="o">+</span> <span class="n">v2</span><span class="p">));</span>
+    <span class="o">++</span><span class="n">v2</span><span class="p">;</span>
+  <span class="p">}</span>
+  <span class="k">while</span> <span class="p">(</span> <span class="n">v2</span> <span class="o">&lt;</span> <span class="mi">5</span> <span class="p">);</span>
+  <span class="n">sub_401280</span><span class="p">(</span><span class="s">"Result (decimal):</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+  <span class="n">v4</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+  <span class="k">do</span>
+    <span class="n">sub_401280</span><span class="p">(</span><span class="s">"%hhu "</span><span class="p">,</span> <span class="p">(</span><span class="kt">unsigned</span> <span class="kr">__int8</span><span class="p">)</span><span class="o">*</span><span class="p">(</span><span class="o">&amp;</span><span class="n">v6</span> <span class="o">+</span> <span class="n">v4</span><span class="o">++</span><span class="p">));</span>
+  <span class="k">while</span> <span class="p">(</span> <span class="n">v4</span> <span class="o">&lt;</span> <span class="mi">5</span> <span class="p">);</span>
+  <span class="n">sub_401280</span><span class="p">(</span><span class="s">"</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+  <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span></code></pre></figure><p>Обратим внимание на сигратуры функций, <code class="language-plaintext highlighter-rouge">sub_4012B0</code> - это ни что иное как <code class="language-plaintext highlighter-rouge">scanf</code>, а <code class="language-plaintext highlighter-rouge">sub_401280</code> - <code class="language-plaintext highlighter-rouge">printf</code>, очевидно <code class="language-plaintext highlighter-rouge">sub_4012E0</code> - <code class="language-plaintext highlighter-rouge">main</code>. Переименуйте(<code class="language-plaintext highlighter-rouge">N</code>) эти функции. Далее я разберу как выглядит это в asm, а вы можете попробывать сразу написать аналог.<p>Вызов функции из стандартной библиотеки:<figure class="highlight"><pre><code class="language-c" data-lang="c"><span class="n">scanf</span><span class="p">(</span><span class="s">"%hhu"</span><span class="p">,</span> <span class="p">(</span><span class="kt">char</span><span class="p">)(</span><span class="o">&amp;</span><span class="n">v6</span> <span class="o">+</span> <span class="n">v0</span><span class="o">++</span><span class="p">));</span></code></pre></figure><figure class="highlight"><pre><code class="language-asm" data-lang="asm">var_C = byte ptr -0Ch
+lea     eax, [ebp+var_C]    ; eax = ebp+var_C адрес массива
+add     eax, esi            ; eax = eax+esi адрес esiтого элемента
+push    eax                 ; помещение 2 аргумента в стек (int)
+push    offset aHhu         ; помещение 1 аргумента в стек  (int)
+call	_scanf						/* scanf("%hhu", inputCharArray + i);*/
+add     esp, 8              ; возвращение указателя стека 4+4 = 2*(int)</code></pre></figure><p>Цикл выглядит очень просто:<figure class="highlight"><pre><code class="language-c" data-lang="c"><span class="n">v4</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+<span class="k">do</span>
+ <span class="o">&lt;</span><span class="err">код</span><span class="o">&gt;</span>
+ <span class="n">v4</span><span class="o">++</span><span class="p">;</span>
+<span class="k">while</span> <span class="p">(</span> <span class="n">v4</span> <span class="o">&lt;</span> <span class="mi">5</span> <span class="p">);</span></code></pre></figure><figure class="highlight"><pre><code class="language-asm" data-lang="asm">xor     esi, esi            ; обнуление счётчика
+loc_401310:                 ; метка
+&lt;код&gt;
+inc     esi                 ; увеличение счётчика
+cmp     esi, 5              ; сревнение с 5
+jb      short loc_401310    ; переход на метку, если esi&lt;5, jump below</code></pre></figure><p>Создайте файл, напишите аналог, скомпилируйте и убедитесь в совпадении с оригиналом.<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>echo ""&gt; main.cpp
+gcc main.cpp main
+main.exe
+</code></pre></div></div><p>Чтобы посмотреть “краткий” код на asm вам поможет ряд команд<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gcc -s -masm=intel main.cpp ; синтаксис Intel
+gcc -s main.cpp             ; синтаксис AT&amp;T
+</code></pre></div></div><h2 id="результат">Результат</h2><p>Как и обещал, привожу функциональный аналог.<figure class="highlight"><pre><code class="language-c" data-lang="c"><span class="cp">#include &lt;iostream&gt;
+#include &lt;windows.h&gt;
+#define ARRAY_LENGTH 5
+</span><span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>
+<span class="p">{</span>
+  <span class="c1">//moduleHandleWOfNULL = 9460301</span>
+  <span class="k">const</span> <span class="n">HMODULE</span> <span class="n">moduleHandleWOfNULL</span> <span class="o">=</span> <span class="n">GetModuleHandleW</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>
+  <span class="k">const</span> <span class="kt">char</span> <span class="n">randomChar</span> <span class="o">=</span>  <span class="o">*</span><span class="p">(</span><span class="kt">char</span> <span class="o">*</span><span class="p">)</span><span class="n">moduleHandleWOfNULL</span> <span class="o">+</span> <span class="o">*</span><span class="p">((</span><span class="kt">char</span> <span class="o">*</span><span class="p">)</span><span class="n">moduleHandleWOfNULL</span> <span class="o">+</span> <span class="mi">1</span><span class="p">);</span>
+  <span class="kt">char</span> <span class="n">inputCharArray</span><span class="p">[</span><span class="n">ARRAY_LENGTH</span><span class="p">]</span> <span class="o">=</span> <span class="p">{</span><span class="mi">0</span><span class="p">};</span>
+  <span class="n">printf</span><span class="p">(</span><span class="s">"Please, enter %u unsigned decimal numbers from 0 to 255:</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="n">ARRAY_LENGTH</span><span class="p">);</span>
+
+  <span class="k">for</span><span class="p">(</span><span class="kt">size_t</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span><span class="n">i</span><span class="o">&lt;</span><span class="n">ARRAY_LENGTH</span><span class="p">;</span><span class="n">i</span><span class="o">++</span><span class="p">)</span>
+  <span class="p">{</span>
+    <span class="n">scanf</span><span class="p">(</span><span class="s">"%hhu"</span><span class="p">,</span> <span class="n">inputCharArray</span> <span class="o">+</span> <span class="n">i</span><span class="p">);</span>
+    <span class="n">inputCharArray</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">randomChar</span> <span class="o">^</span> <span class="p">(</span><span class="n">i</span> <span class="o">+</span> <span class="n">inputCharArray</span><span class="p">[</span><span class="n">i</span><span class="p">]);</span>
+  <span class="p">}</span>
+  <span class="n">printf</span><span class="p">(</span><span class="s">"Result (decimal):</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+  <span class="k">for</span><span class="p">(</span><span class="kt">size_t</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span><span class="n">i</span><span class="o">&lt;</span><span class="n">ARRAY_LENGTH</span><span class="p">;</span><span class="n">i</span><span class="o">++</span><span class="p">)</span>
+  <span class="p">{</span>
+  <span class="n">printf</span><span class="p">(</span><span class="s">"%hhu "</span><span class="p">,</span> <span class="n">inputCharArray</span><span class="p">[</span><span class="n">i</span><span class="p">]);</span>
+  <span class="p">}</span>
+  <span class="n">printf</span><span class="p">(</span><span class="s">"</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+  <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span></code></pre></figure><p>В дополнение, привожу код написанный на <a href="https://ru.wikipedia.org/wiki/MASM">masm</a> для <em>подобной</em> программы и даю вам возможность изучить его самостоятельно.<figure class="highlight"><pre><code class="language-masm" data-lang="masm">.386
+.model flat,stdcall
+option casemap: none
+include \masm32\include\msvcrt.inc
+include /masm32/include/user32.inc
+include \masm32\include\kernel32.inc
+includelib \masm32\lib\msvcrt.lib
+includelib /masm32/lib/user32.lib
+includelib \masm32\lib\kernel32.lib
+include /masm32/macros/macros.asm 
+uselib masm32, comctl32, ws2_32 
+
+ArrayPtrMacro macro ; получение &amp;arr[i]
+		mov	eax, [esp+1Ch]
+		lea	edx, [esp+13h]
+		add	eax, edx
+		endm	
+.CODE
+main PROC
+		invoke crt_printf, chr$("Please, enter 5 unsigned decimal numbers from 0 to 255: ")
+		mov	dword	ptr [esp+1Ch], 0                ; i
+.REPEAT
+		ArrayPtrMacro
+		invoke crt_scanf, chr$("%hhu"), eax
+		ArrayPtrMacro
+		movzx	eax, byte ptr [eax]                 ; дополнение нулями(приведение типа)
+		mov	ecx, eax
+		ArrayPtrMacro
+		movzx	eax, byte ptr [eax]                 
+		mov	edx, dword	ptr  [esp+1Ch]
+		xor	eax, edx ;^
+		sub	ecx, eax ;-
+		mov	eax, ecx 
+		sub	eax, 59h ;-
+		mov	ecx, eax
+		ArrayPtrMacro
+		mov	[eax], cl
+		inc dword	ptr  [esp+1Ch]
+.UNTIL dword	ptr [esp+1Ch]==5
+		invoke crt_printf, chr$("Result (decimal): ")
+.REPEAT
+		lea	edx, byte ptr [esp+13h]
+		mov	eax, dword	ptr [esp+18h]
+		add	eax, edx
+		movzx	eax, byte ptr [eax]
+		movzx	eax, al                             ; cast to uchar
+		invoke crt_printf, chr$("%hhu "), eax
+		inc dword	ptr [esp+18h]
+.UNTIL dword	ptr [esp+18h]==5
+	invoke ExitProcess, 0
+main ENDP
+END main</code></pre></figure><p>Это задание было практикой второго курса по направлению “Компьютерная безопасность” в моём университете.</div><div class="share-page"> <span style="float: left;">Share this on &rarr;&nbsp;&nbsp;</span> <a href="https://twitter.com/share" class="twitter-share-button" data-via="nikitait">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script><div class="g-plus" data-action="share" data-annotation="bubble"></div><script src="https://apis.google.com/js/platform.js" async defer></script><div class="fb-share-button" data-href="https://nikitait.github.io/reverse-engineering" data-layout="button_count" style="position: relative; top: -8px; left: 3px;"></div></div><div id="fb-root"></div><script>(function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6&appId=0"; fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'facebook-jssdk'));</script></div><div class="PageNavigation"> <a class="prev" href="/jakyll-blog">&laquo; Jekyll и Windows 10</a> <a class="next" href="/freelance-students">Про помощь студентам в выполнении работ &raquo;</a></div><div class="disqus-comments"><div id="disqus_thread"></div><script type="text/javascript"> /* <![CDATA[ */ var disqus_shortname = "https-nikitait-github-io"; var disqus_identifier = "https://nikitait.github.io_Reverse Engineering для девочек"; var disqus_title = "Reverse Engineering для девочек"; /* * * DON'T EDIT BELOW THIS LINE * * */ (function() { var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true; dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js'; (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq); })(); /* ]]> */ </script></div><footer> &copy; Nikita Fiodorov - <a href="https://github.com/nikitait">https://github.com/nikitait</a> - Powered by Jekyll.<div class="btn-github" style="float:right;"> <iframe src="https://ghbtns.com/github-btn.html?user=nikitait&repo=nikitait.github.io&type=star&count=true" frameborder="0" scrolling="0" width="85" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=nikitait&repo=nikitait.github.io&type=fork&count=true" frameborder="0" scrolling="0" width="85" height="20px"></iframe></div></footer></div></div><script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script> <script src="/static/js/bootstrap.min.js"></script> <script src="/static/js/super-search.js"></script> <script src="/static/js/thickbox-compressed.js"></script> <script src="/static/js/projects.js"></script>

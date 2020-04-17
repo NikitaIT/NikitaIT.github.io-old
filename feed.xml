@@ -1,0 +1,819 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Stack Problems</title>
+    <description>My Personal Stack Problems</description>
+    <link>https://nikitait.github.io/</link>
+    <atom:link href="https://nikitait.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 18 Apr 2020 01:50:24 +0300</pubDate>
+    <lastBuildDate>Sat, 18 Apr 2020 01:50:24 +0300</lastBuildDate>
+    <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Читаемая литература по программированию</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;Сон — это хорошо, а книги еще лучше. 
+(c) Джордж Мартин «Битва королей»&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;рекомендации&quot;&gt;Рекомендации&lt;/h2&gt;
+
+&lt;h3 id=&quot;рекомендую-начинающим&quot;&gt;Рекомендую начинающим&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;Порядок имеет значение&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Павловская&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;C++. Программирование на языке высокого уровня&lt;/li&gt;
+  &lt;li&gt;С++. Объектно-ориентированное программирование. Практикум&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Сергей Орлов&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Теория и практика языков программирования&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Боб Мартин&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Чистый код. Создание, анализ и рефакторинг&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Мартин Фаулер&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Рефакторинг. Улучшение существующего кода // Эта книга прошла мое первое собеседование за меня&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;рекомендую-на-первый-год-работы&quot;&gt;Рекомендую на первый год работы&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;Порядок имеет значение&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Боб Мартин&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Чистая архитектура. Искусство разработки программного обеспечения&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Александр Швец&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;sourcemaking.com&quot;&gt;Design Patterns Explained Simply&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;refactoring.guru&quot;&gt;Refactoring Course(Погружение в Рефакторинг)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Эрик Эванс&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Предметно-ориентированное проектирование (DDD). Структуризация сложных программных систем // aka синяя книга&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Вон Вернон&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Implementing Domain-driven Design // aka красная книга&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Скотт Миллетт, Ник Туне&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Patterns, Principles, and Practices of Domain-Driven Design // о ней не так часто говорят, а зря!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;рекомендую-на-n1-год-работы&quot;&gt;Рекомендую на N+1 год работы&lt;/h3&gt;
+
+&lt;p&gt;Я долго спрашивал у других “что прочитать ещё” и никто не посоветовал мне ничего, что было бы мне действительно нужно.
+Через какое-то время я понял - нужно всё.&lt;/p&gt;
+
+&lt;p&gt;TDD? DDD? BDD? Тестирование? Сети? Безопасность? Архитектура? Менеджмент? Матанализ? Нейросети?&lt;/p&gt;
+
+&lt;p&gt;Возможно вам внушат, что что-либо из этого не нужно - не слушайте. Каждый раз, когда я слышу - “это не нужно”, 
+я могу сказать “это не нужно, если”. Всегда есть это “если”.&lt;/p&gt;
+
+&lt;p&gt;Не важно на скольких языках и фреймворках вы пишите код и как вы это делаете, 
+важно то зачем вы делаете это используя то или иное решение. 
+Этот урок вы должны были вынести из книг Боба Мартина и Мартина Фаулера.&lt;/p&gt;
+
+&lt;h2 id=&quot;на-будущее&quot;&gt;На будущее&lt;/h2&gt;
+
+&lt;p&gt;Тут должны быть крутые ниги.&lt;/p&gt;
+
+&lt;p&gt;А вот и они:&lt;/p&gt;
+
+&lt;pre style=&quot;font-size:smaller;&quot;&gt;
+------       05.05.2017      5:47        9327357 Chakon_S._Git_dla_professionalnogo_programmista.pdf
+------       05.05.2017      5:47        2619468 Gamma_E._Priemy_obiektno-orientirovannogo_proektirovania.pdf
+------       05.05.2017      5:47        4132168 Goldstein_S._Optimizacia_prilozhenii_na_platforme_NET.pdf
+------       05.05.2017      5:47       15261486 Kleinberg_J._Algoritmy_Razrabotka_i_primenenie.pdf
+------       05.05.2017      5:47        4208035 Siman_M._Vnedrenie_zavisimostei_v_NET.pdf
+------       05.05.2017      5:47        4100462 Stivens_R._Algoritmy_teoriya_i_prakticheskoe_primenenie.pdf
+------       05.05.2017      5:47        3785111 Teplyakov_S._Patterny_proektirovaniya_na_platforme_DotNet.pdf
+------       05.05.2017      5:40        6809131 Vaysfeld_M._Obektno_orientirovannoe_myshlenie.pdf
+------       05.05.2017      5:33       10692389 Г. Лакман Макдауэлл Кареьера программиста 6-е издание.zip
+------       05.05.2017      5:34        2262940 Рой Ошероув Искусство автономного тестирования с примерами на C#.pdf
+------       05.05.2017      5:48        6027654 Чед Фаулер Программист фанатик.rar
+&lt;/pre&gt;
+
+&lt;p&gt;Спустя 3 года я прочитал 4 книги из плана на 2017 и более 30 других. Мне стало очень трудно ссылаться на книги, 
+кажется я начинаю их забывать. Мне явно необходим инструмент для построения топологий с умным асоциативным поиском.&lt;/p&gt;
+
+&lt;p&gt;Я приложил много усилий чтобы его найти, но кажется его прототип есть только у DARPA и пары компаний выходцев Гарварда, 
+однако они поняли идею не правильно. Вэнивар Буш назвал это memex, если вы слышите это название впервые, я рекомендую прочитать &lt;a href=&quot;https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/&quot;&gt;вот это&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Я пробовал MindMap, но это компромис, а я не люблю идти на компромисы.&lt;/p&gt;
+
+&lt;h2 id=&quot;в-процессе&quot;&gt;В процессе&lt;/h2&gt;
+
+&lt;p&gt;Bugaenko Egor&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Elegantnye obekty. Java edition&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.yegor256.com/&quot;&gt;Блог&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Голдратт Элияху М.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Критическая цепь&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Питер Сенге&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Пятая дисциплина: Искусство и практика обучающейся организации&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;не-дочитано&quot;&gt;Не дочитано&lt;/h2&gt;
+
+&lt;p&gt;Дьюхерст&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;C++. Священные знания // не думаю что в ближайшие несколько лет я захочу вернуться к этой книге&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Генри Уоррен&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Алгоритмические трюки для программистов&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;прочитанное&quot;&gt;Прочитанное&lt;/h2&gt;
+
+&lt;p&gt;Боб Мартин&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Чистый код. Создание, анализ и рефакторинг&lt;/li&gt;
+  &lt;li&gt;Чистая архитектура. Искусство разработки программного обеспечения&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ben-Gan I.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Microsoft SQL Server 2012 Osnovy T-SQL&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Фримен А.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Angular для профессионалов.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Wood K.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Rashirenie biblioteki jQuery&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Гради Буч&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Объектно-ориентированный анализ и проектирование. // c++, если вы хотите обьяснить кому-то ооп, наверное лучшее предложение&lt;/li&gt;
+  &lt;li&gt;Язык UML. Руководство пользователя // Полезно после чистой архитектуры. UML здесь не самоцель.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Рикардо Перес&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;NHibernate Succinctly&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Эрик Фримен, Э. Робсон&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Изучаем программирование на JavaScript&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Мартин Фаулер&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Рефакторинг. Улучшение существующего кода&lt;/li&gt;
+  &lt;li&gt;Блог &lt;a href=&quot;https://martinfowler.com/&quot;&gt;martinfowler.com&lt;/a&gt; // читаю с окном в год всё&lt;/li&gt;
+  &lt;li&gt;Рефакторинг кода на JavaScript. // Отвратительно, имхо&lt;/li&gt;
+  &lt;li&gt;UML. Основы. Краткое руководство по стандартному языку объектного моделирования // Полезно после чистой архитектуры. UML здесь не самоцель.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Мартин Фаулер, Дейвид Райс&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Шаблоны корпоративных приложений&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Александр Швец&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;sourcemaking.com&quot;&gt;Design Patterns Explained Simply&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;refactoring.guru&quot;&gt;Refactoring Course(Погружение в Рефакторинг)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Джозеф Албахари&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;LINQ. Карманный справочник&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Джеффри Рихтер&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;CLR via C#. Программирование на платформе Microsoft.NET Framework 4.5 на языке C#&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Бертран Мейер&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Объектно-ориентированное конструирование программных систем // да, я правда её прочитал, 
+вы бы видели глаза моего коллеги, когда он увидел сколько в ней страниц, 
+после того как я нарисовал схему из этой книги на маркерной доске спустя год после прочтения. 
+На собеседовании в Emergn(ex.Return on Intelligence) меня спросили по ней про “Три столпа ООП”, 
+этот не ловкий момент, когда собеседующий пытается сделать вид, что тоже читал.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Брюс Эккель&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Философия Java&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Сиддхартха Рао&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://s-engineer.ru/HTKM/cpp-za-21-den.pdf&quot;&gt;Освой самостоятельно C++ за 21 день&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Бьёрн Страуструп&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Программирование: принципы и практика в С++&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Герберт Шилдт&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Самоучитель C++&lt;/li&gt;
+  &lt;li&gt;Полный справочник по C++&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Николай Джосьютис&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;C++ Стандартная библиотека. Для профессионалов.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Игорь Одинцов&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Профессиональное программирование. Системный подход&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Сергей Орлов&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Теория и практика языков программирования&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Павловская&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;C++. Программирование на языке высокого уровня&lt;/li&gt;
+  &lt;li&gt;С++. Объектно-ориентированное программирование. Практикум&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Бланшет, Саммерфилд&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.bogotobogo.com/cplusplus/files/c-gui-programming-with-qt-4-2ndedition.pdf&quot;&gt;C++ GUI Programming with Qt4&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Алексеев&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.electronics.lnu.edu.ua/fileadmin/add/flos/Book-qtC%2B%2B.pdf&quot;&gt;Программирование на языке С++ в среде Qt Creator&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Макс Шлее&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Qt 5.3. Профессиональное программирование на C++&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Перевод Д. В. Летуновского&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://staruml.sourceforge.net/docs/user-guide(ru)/user-guide.pdf&quot;&gt;Star UML. Руководство пользователя&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Александр Леоненков&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.e-reading.club/book.php?book=33640&quot;&gt;Самоучитель UML&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Дэвид Сойер Макфарланд&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Новая большая книга CSS&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Марк Пилгрим&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://diveintohtml5.info&quot;&gt;Погружение в HTML5&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Scott Murray&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://chimera.labs.oreilly.com/books/1230000000345/&quot;&gt;Interactive Data Visualization for the Web&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Кевин Митник&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Искусство обмана&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Эрик Эванс&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Предметно-ориентированное проектирование (DDD). Структуризация сложных программных систем&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Вон Вернон&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Implementing Domain-driven Design&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Скотт Миллетт, Ник Туне&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Patterns, Principles, and Practices of Domain-Driven Design&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Это конечно не всё книги, меньше 10%, я слишком много читаю чтобы заносить всё в один список.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 13 Aug 2017 11:46:23 +0300</pubDate>
+        <link>https://nikitait.github.io/reading-list</link>
+        <guid isPermaLink="true">https://nikitait.github.io/reading-list</guid>
+        
+        
+        <category>portfolio</category>
+        
+        <category>books</category>
+        
+      </item>
+    
+      <item>
+        <title>Про помощь студентам в выполнении работ</title>
+        <description>&lt;p&gt;&lt;del&gt;Ести вам нужна помощь и вы считаете, что я соглашусь - пишите.&lt;/del&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;На 2020 год предложение уже не актуально. Дипломы тоже не предлагать, зачастили.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;о-чём-эта-статья&quot;&gt;О чём эта статья?&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Как я на это подписался&lt;/li&gt;
+  &lt;li&gt;Плюсы такой работы&lt;/li&gt;
+  &lt;li&gt;Её минусы&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;где-заработать-студенту-если-не-в-собственном-университете&quot;&gt;Где заработать студенту, если не в собственном университете?&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Первый мой заказ&lt;/strong&gt; был получен именно в нём. Дело было перед зимней сессией цена &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;2000 рублей&lt;/code&gt;, курсовая около 1000 строк на &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;c++ builder 6&lt;/code&gt;. Если честно, немного боялся, что не получится, ведь слово &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Borland&lt;/code&gt; я слышал в первый раз (к сожалению, не последний). Это было простенькое GUI для просмотра и сортировки маршрутов поездов. Получилось оно весьма неплохо, строились графики загрузки станций, и документация на русском была не самой плохой. Я потратил на это целый день (6-7 часов) и был доволен своей работой, как и заказчик.&lt;/p&gt;
+
+&lt;p&gt;После этого были другие заказы, приходившие от знакомых моих знакомых, ведь ответом на вопрос “Кто хорошо прогает?” неожиданно стал я. Это были не такие большие деньги, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;от 300 до 500 рублей&lt;/code&gt; иногда в бутылочном эквиваленте, всё уходило на еду, проезд, выпивку и цветы. Времени было много, найти позицию &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;junior&lt;/code&gt; разработчика со свободным графиком было сложновато и рост моей карьеры продолжился не очень активно, а потом вновь вернулся к студенческим работам. Мой профиль на одной из бирж &lt;a href=&quot;https://studwork.org/info/80360&quot;&gt;здесь&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;как-получить-заказ-за-приличную-цену-на-бирже-студенческих-работ&quot;&gt;Как получить заказ за приличную цену на бирже студенческих работ&lt;/h2&gt;
+
+&lt;p&gt;Когда я только начал, после первых же заказов я купил &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;vip&lt;/code&gt;, чтобы знать предложения конкурентов. Ставки на заказы по &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;c++&lt;/code&gt; и &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;c#&lt;/code&gt; делилась на несколько категорий:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Задания от фирм перекупщиков и от самих студентов&lt;/li&gt;
+  &lt;li&gt;Студенты делились на девочек, такие обычно быстро покупали ничего не уточняя, и на парней, думающих, что они наняли репетитора по c++ на круглосуточной основе&lt;/li&gt;
+  &lt;li&gt;Перекупщики же делились на тех, кто давал хорошее ТЗ и/или поддерживал общение с студеном, и других: молчаливых, наглых и иногда просто невероятно глупых&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;По ценам:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Лабораторные за 150-300 обычно на обработку массивов/матриц&lt;/li&gt;
+  &lt;li&gt;Паки лабораторных за весь семестр 7-8 штук по 300 за каждую&lt;/li&gt;
+  &lt;li&gt;Сайты за 2.5-3 тыс. и сайты-дипломы 4-6 тыс. рублей&lt;/li&gt;
+  &lt;li&gt;Онлайн помощь (полная лажа)&lt;/li&gt;
+  &lt;li&gt;Работы с заранее утверждённой ставкой в 500&lt;/li&gt;
+  &lt;li&gt;Сложные почти научные курсовые-дипломы за 15-20к&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Из своего опыта могу сказать, что, сделав ставку в 500 и указав стек технологий из ТЗ вы почти что с &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;100% вероятностью&lt;/code&gt; получаете заказ, тратя на него около часа. За заказ на работы за весь семестр выплату задержат, но вы получите знания по курсу за короткое время. Так, я получил заказ на &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;F#&lt;/code&gt; по методичке &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;МФТИ&lt;/code&gt; (7 работ по 500), сделал их почти сразу, получил знания и удовольствие от выполнения.
+Самым прибыльным и не запарным был раздел &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;html&lt;/code&gt;, где умственно отсталые птушники платили по 1000 рублей за скрипт в 40 строк или создание формы ввода, но заказы в нём были редко. Сайты до 3 тыс. тоже не пыльные.
+Хоть я и мало времени уделяю работе, тем не менее мой &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;средний заработок&lt;/code&gt; с учётом комиссий и т.п. составляет &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;200 рублей в час&lt;/code&gt;. А максимальная стоимость кода &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;100 рублей за строку&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;почему-я-не-планирую-продолжать-этим-заниматься&quot;&gt;Почему я не планирую продолжать этим заниматься?&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Летом мало заказов&lt;/li&gt;
+  &lt;li&gt;Постоянно есть шанс наткнуться на человека, который будет спрашивать вас за каждую строчку кода&lt;/li&gt;
+  &lt;li&gt;Я пишу относительно хороший и свежий код, но не все преподаватели знают даже &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;std в c++&lt;/code&gt; или &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;linq в c#&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Хочется работать в команде и на постоянной работе&lt;/li&gt;
+  &lt;li&gt;Много времени уходит на поддержку и проверку почты (поиск заказов)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;как-выглядит-моя-самая-дешевая-работа&quot;&gt;Как выглядит моя самая дешевая работа&lt;/h2&gt;
+
+&lt;p&gt;Больше я таких простых работ не брал.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c--&quot; data-lang=&quot;c++&quot;&gt;&lt;span class=&quot;cp&quot;&gt;#include &amp;lt;iostream&amp;gt;
+#include &amp;lt;fstream&amp;gt;
+#include &amp;lt;string&amp;gt;
+#include &amp;lt;sstream&amp;gt;
+#include &amp;lt;list&amp;gt;
+#include &amp;lt;algorithm&amp;gt;
+&lt;/span&gt;
+&lt;span class=&quot;cm&quot;&gt;/**
+ *  @author Nikita Fiodorov
+ *  @site https://github.com/NikitaIT/
+ *  @date 04.03.2017
+ *  @price 125
+ *  @build g++ -std=c++11 main.cpp
+ */&lt;/span&gt;
+
+&lt;span class=&quot;cm&quot;&gt;/*!
+ * \a Student _____ Group №_____
+ * \date 04.03.2017
+ */&lt;/span&gt;
+
+&lt;span class=&quot;cm&quot;&gt;/*!
+ * \brief endOfProposals    Проверка на конец предложения
+ * \param ch                Проверяемый смвол
+ * \return 1                если символ конца предложения, 0 в пративном случае
+ */&lt;/span&gt;
+&lt;span class=&quot;kt&quot;&gt;bool&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;endOfProposals&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;char&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ch&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+&lt;span class=&quot;cm&quot;&gt;/*!
+ * \brief extractProposals  Извлечь предложение
+ * \param docin             Файл содержащий текст
+ * \return                  Предложение
+ */&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;std&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;string&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;extractProposals&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;std&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ifstream&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;docin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+&lt;span class=&quot;cm&quot;&gt;/*!
+ * \brief openDoc           Открыть файл исходного текста
+ * \return                  Указатель на этот файл или nullptr если файл не найден
+ */&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;std&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ifstream&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;openDoc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+
+&lt;span class=&quot;cm&quot;&gt;/*!
+ * \brief buildProposalsList    Построение обращенного списка
+ * \param docin                 Файл исходного текста
+ * \param count                 Число считываемых строк
+ * \return                      Список строк наоборот
+ */&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;std&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;list&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;std&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;buildProposalsList&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;std&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ifstream&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;docin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;size_t&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;count&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;//открываем файл&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;auto&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;docin&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;openDoc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;docin&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;nullptr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;//задаем колличество строк&lt;/span&gt;
+    &lt;span class=&quot;kt&quot;&gt;size_t&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;count&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;//строим список строк&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;std&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;list&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;std&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;reverseProposalsList&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;buildProposalsList&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;docin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;count&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;//выводим список в консоль&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;std&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;for_each&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;reverseProposalsList&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;begin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(),&lt;/span&gt;
+                  &lt;span class=&quot;n&quot;&gt;reverseProposalsList&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;end&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(),&lt;/span&gt;
+                  &lt;span class=&quot;p&quot;&gt;[](&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;std&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;string&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;std&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cout&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;getchar&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;kt&quot;&gt;bool&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;endOfProposals&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;char&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ch&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ch&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;sc&quot;&gt;'.'&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ch&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;sc&quot;&gt;'!'&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ch&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;sc&quot;&gt;'?'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;std&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;string&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;extractProposals&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;std&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ifstream&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;docin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;kt&quot;&gt;char&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ch&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;sc&quot;&gt;' '&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;std&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;stringstream&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;proposal&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;//пока не конец файла или предложения забераем символ&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;docin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;eof&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;!&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;endOfProposals&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ch&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;docin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ch&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;proposal&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;put&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ch&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;proposal&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;std&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ifstream&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;openDoc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;std&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;string&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;filepath&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;C:/test.txt&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;std&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cout&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Enter the file name: &quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;std&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cin&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;filepath&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;std&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ifstream&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;docin&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;std&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ifstream&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;filepath&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;docin&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;is_open&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;std&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cout&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Error opening the file.&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;std&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;endl&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;getchar&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;docin&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;nullptr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;docin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;std&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;list&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;std&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;buildProposalsList&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;std&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ifstream&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;docin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;size_t&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;count&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;std&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;list&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;std&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;proposals&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;size_t&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;count&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;proposals&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;push_front&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;extractProposals&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;docin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;proposals&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+</description>
+        <pubDate>Wed, 28 Jun 2017 00:06:23 +0300</pubDate>
+        <link>https://nikitait.github.io/freelance-students</link>
+        <guid isPermaLink="true">https://nikitait.github.io/freelance-students</guid>
+        
+        
+        <category>freelance</category>
+        
+        <category>university</category>
+        
+        <category>students</category>
+        
+      </item>
+    
+      <item>
+        <title>Reverse Engineering для девочек</title>
+        <description>&lt;h2 id=&quot;введение&quot;&gt;Введение&lt;/h2&gt;
+&lt;p&gt;Название соответствует содержанию, оно краткое и не предполагает глубокое погружение в решаемую задачу. Использован так называемый “инженерный” подход.&lt;/p&gt;
+&lt;h3 id=&quot;инструменты&quot;&gt;Инструменты:&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;IDA Pro + HexRays (скачать можно на RuTracker)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;gcc или другой компилятор&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;А больше ничего и не надо&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;цели-и-задачи-этого-поста&quot;&gt;Цели и задачи этого поста:&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Написать функциональный аналог программы имея только &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.exe&lt;/code&gt; файл&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;разбор&quot;&gt;Разбор&lt;/h2&gt;
+
+&lt;p&gt;Если вы не хотите использовать декомпиляцию, рекомендую почитать про &lt;a href=&quot;https://ru.wikibooks.org/wiki/%D0%90%D1%81%D1%81%D0%B5%D0%BC%D0%B1%D0%BB%D0%B5%D1%80_%D0%B2_Linux_%D0%B4%D0%BB%D1%8F_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%81%D1%82%D0%BE%D0%B2_C&quot;&gt;ассемблер в Linux для программистов C&lt;/a&gt;, однако, для понимания происходящего в этой статье, вам этого не понадобится.&lt;/p&gt;
+
+&lt;p&gt;Установите требуемые инструменты и приступим.&lt;/p&gt;
+
+&lt;p&gt;Скачайте &lt;a href=&quot;/static/download/reverse-engineering/task.ex&quot;&gt;файл&lt;/a&gt;(на свой страх и риск, измените &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.ex&lt;/code&gt; на &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.exe&lt;/code&gt;), он содержит простую программу на &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;c++&lt;/code&gt; скомпилированную с множеством ключей, для усложнения(?) разбора.&lt;/p&gt;
+
+&lt;p&gt;Откройте консоль в папке с загружееным файлом(shift+ПКМ -&amp;gt; Открыть окно команд) и выполните его.&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;task.exe
+#Please, enter 5 unsigned decimal numbers from 0 to 255:
+1 1 1 1 1
+#Result (decimal):
+#166 165 164 163 162
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Анализируем увиденное:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Консольное приложение.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Две &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;string&lt;/code&gt;, попробуем их найти в коде.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Откройте &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;IDA Pro&lt;/code&gt;, нажмите &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;New&lt;/code&gt;, найдите и откройте скачанный &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;task.exe&lt;/code&gt;, в всплывшем окне ничего не меняя нажмите &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Ok&lt;/code&gt;. На боковой панели - список функций, на основной - их отображение. Далее кликните(ПКМ) по любой функции в основной панели и выберите &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Text view&lt;/code&gt;, перед вами ассемблерный код в синтаксисе &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Intel&lt;/code&gt;. Проматайте файл в начало, нажмите в верхней панели на &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;бинокль T&lt;/code&gt; выполните поиск фрагмента строки. Результат&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-asm&quot; data-lang=&quot;asm&quot;&gt;push    offset aPleaseEnterUUn ;'Please, enter %u unsigned decimal numbers from 0 to 255:',0Ah,0&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Нажмите &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;F5&lt;/code&gt;, в случае если вы установили IDA Pro с HexRays перед вами окажется псевдокод(&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;C&lt;/code&gt;).&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c&quot; data-lang=&quot;c&quot;&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;sub_4012E0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;kt&quot;&gt;unsigned&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;v0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// esi@1&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;HMODULE&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;v1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// eax@3&lt;/span&gt;
+  &lt;span class=&quot;kt&quot;&gt;unsigned&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;v2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// edx@3&lt;/span&gt;
+  &lt;span class=&quot;kt&quot;&gt;char&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;v3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// bl@3&lt;/span&gt;
+  &lt;span class=&quot;kt&quot;&gt;unsigned&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;v4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// esi@5&lt;/span&gt;
+  &lt;span class=&quot;kt&quot;&gt;char&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;v6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// [sp+4h] [bp-Ch]@1&lt;/span&gt;
+  &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;v7&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// [sp+5h] [bp-Bh]@1&lt;/span&gt;
+
+  &lt;span class=&quot;n&quot;&gt;v6&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;v7&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;sub_401280&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Please, enter %u unsigned decimal numbers from 0 to 255:&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;v0&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;sub_4012B0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;%hhu&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;char&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;v6&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;v0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;v0&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;v1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;GetModuleHandleW&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;v2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;v3&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_BYTE&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;v1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_BYTE&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;v1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;v6&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;v2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;v3&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;v2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;v6&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;v2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;v2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;v2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;sub_401280&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Result (decimal):&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;v4&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;sub_401280&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;%hhu &quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;unsigned&lt;/span&gt; &lt;span class=&quot;kr&quot;&gt;__int8&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;v6&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;v4&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;v4&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;sub_401280&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Обратим внимание на сигратуры функций, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sub_4012B0&lt;/code&gt; - это ни что иное как &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;scanf&lt;/code&gt;, а &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sub_401280&lt;/code&gt; - &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;printf&lt;/code&gt;, очевидно &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sub_4012E0&lt;/code&gt; - &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;main&lt;/code&gt;. Переименуйте(&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;N&lt;/code&gt;) эти функции. Далее я разберу как выглядит это в asm, а вы можете попробывать сразу написать аналог.&lt;/p&gt;
+
+&lt;p&gt;Вызов функции из стандартной библиотеки:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c&quot; data-lang=&quot;c&quot;&gt;&lt;span class=&quot;n&quot;&gt;scanf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;%hhu&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;char&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;v6&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;v0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-asm&quot; data-lang=&quot;asm&quot;&gt;var_C = byte ptr -0Ch
+lea     eax, [ebp+var_C]    ; eax = ebp+var_C адрес массива
+add     eax, esi            ; eax = eax+esi адрес esiтого элемента
+push    eax                 ; помещение 2 аргумента в стек (int)
+push    offset aHhu         ; помещение 1 аргумента в стек  (int)
+call	_scanf						/* scanf(&quot;%hhu&quot;, inputCharArray + i);*/
+add     esp, 8              ; возвращение указателя стека 4+4 = 2*(int)&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Цикл выглядит очень просто:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c&quot; data-lang=&quot;c&quot;&gt;&lt;span class=&quot;n&quot;&gt;v4&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;do&lt;/span&gt;
+ &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;код&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+ &lt;span class=&quot;n&quot;&gt;v4&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;v4&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-asm&quot; data-lang=&quot;asm&quot;&gt;xor     esi, esi            ; обнуление счётчика
+loc_401310:                 ; метка
+&amp;lt;код&amp;gt;
+inc     esi                 ; увеличение счётчика
+cmp     esi, 5              ; сревнение с 5
+jb      short loc_401310    ; переход на метку, если esi&amp;lt;5, jump below&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Создайте файл, напишите аналог, скомпилируйте и убедитесь в совпадении с оригиналом.&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;echo &quot;&quot;&amp;gt; main.cpp
+gcc main.cpp main
+main.exe
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Чтобы посмотреть “краткий” код на asm вам поможет ряд команд&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gcc -s -masm=intel main.cpp ; синтаксис Intel
+gcc -s main.cpp             ; синтаксис AT&amp;amp;T
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h2 id=&quot;результат&quot;&gt;Результат&lt;/h2&gt;
+&lt;p&gt;Как и обещал, привожу функциональный аналог.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c&quot; data-lang=&quot;c&quot;&gt;&lt;span class=&quot;cp&quot;&gt;#include &amp;lt;iostream&amp;gt;
+#include &amp;lt;windows.h&amp;gt;
+#define ARRAY_LENGTH 5
+&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;c1&quot;&gt;//moduleHandleWOfNULL = 9460301&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;HMODULE&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;moduleHandleWOfNULL&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;GetModuleHandleW&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;char&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;randomChar&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;  &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;char&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;moduleHandleWOfNULL&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;char&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;moduleHandleWOfNULL&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;kt&quot;&gt;char&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;inputCharArray&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ARRAY_LENGTH&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;printf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Please, enter %u unsigned decimal numbers from 0 to 255:&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ARRAY_LENGTH&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+  &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;size_t&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ARRAY_LENGTH&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;scanf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;%hhu&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;inputCharArray&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;inputCharArray&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;randomChar&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;inputCharArray&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]);&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;printf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Result (decimal):&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;size_t&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ARRAY_LENGTH&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;printf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;%hhu &quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;inputCharArray&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]);&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;printf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;В дополнение, привожу код написанный на &lt;a href=&quot;https://ru.wikipedia.org/wiki/MASM&quot;&gt;masm&lt;/a&gt; для &lt;em&gt;подобной&lt;/em&gt; программы и даю вам возможность изучить его самостоятельно.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-masm&quot; data-lang=&quot;masm&quot;&gt;.386
+.model flat,stdcall
+option casemap: none
+include \masm32\include\msvcrt.inc
+include /masm32/include/user32.inc
+include \masm32\include\kernel32.inc
+includelib \masm32\lib\msvcrt.lib
+includelib /masm32/lib/user32.lib
+includelib \masm32\lib\kernel32.lib
+include /masm32/macros/macros.asm 
+uselib masm32, comctl32, ws2_32 
+
+ArrayPtrMacro macro ; получение &amp;amp;arr[i]
+		mov	eax, [esp+1Ch]
+		lea	edx, [esp+13h]
+		add	eax, edx
+		endm	
+.CODE
+main PROC
+		invoke crt_printf, chr$(&quot;Please, enter 5 unsigned decimal numbers from 0 to 255: &quot;)
+		mov	dword	ptr [esp+1Ch], 0                ; i
+.REPEAT
+		ArrayPtrMacro
+		invoke crt_scanf, chr$(&quot;%hhu&quot;), eax
+		ArrayPtrMacro
+		movzx	eax, byte ptr [eax]                 ; дополнение нулями(приведение типа)
+		mov	ecx, eax
+		ArrayPtrMacro
+		movzx	eax, byte ptr [eax]                 
+		mov	edx, dword	ptr  [esp+1Ch]
+		xor	eax, edx ;^
+		sub	ecx, eax ;-
+		mov	eax, ecx 
+		sub	eax, 59h ;-
+		mov	ecx, eax
+		ArrayPtrMacro
+		mov	[eax], cl
+		inc dword	ptr  [esp+1Ch]
+.UNTIL dword	ptr [esp+1Ch]==5
+		invoke crt_printf, chr$(&quot;Result (decimal): &quot;)
+.REPEAT
+		lea	edx, byte ptr [esp+13h]
+		mov	eax, dword	ptr [esp+18h]
+		add	eax, edx
+		movzx	eax, byte ptr [eax]
+		movzx	eax, al                             ; cast to uchar
+		invoke crt_printf, chr$(&quot;%hhu &quot;), eax
+		inc dword	ptr [esp+18h]
+.UNTIL dword	ptr [esp+18h]==5
+	invoke ExitProcess, 0
+main ENDP
+END main&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Это задание было практикой второго курса по направлению “Компьютерная безопасность” в моём университете.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 25 Jun 2017 12:42:23 +0300</pubDate>
+        <link>https://nikitait.github.io/reverse-engineering</link>
+        <guid isPermaLink="true">https://nikitait.github.io/reverse-engineering</guid>
+        
+        
+        <category>asm</category>
+        
+        <category>reverse</category>
+        
+        <category>masm</category>
+        
+        <category>security</category>
+        
+        <category>c</category>
+        
+      </item>
+    
+      <item>
+        <title>Jekyll и Windows 10</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/static/img/posts/jakyll-blog-logo.jpg&quot; alt=&quot;Jakyll logo&quot; title=&quot;Jakyll logo&quot; /&gt;
+&lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; - это генератор статического сайта, разработанный на &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ruby&lt;/code&gt;, который генерирует веб-сайты из &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;markdown&lt;/code&gt; и многих других форматов.&lt;/p&gt;
+
+&lt;h2 id=&quot;почему-стоит-использовать-именно-его&quot;&gt;Почему стоит использовать именно его?&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Вы программист, любите свободу и хотите использовать современные походы&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Прост в использовании и настройке, есть &lt;a href=&quot;http://prgssr.ru/documentation/&quot;&gt;перевод&lt;/a&gt; документации&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Поддерживает дополнения на &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ruby&lt;/code&gt; и использует &lt;a href=&quot;https://github.com/Shopify/liquid/wiki&quot;&gt;Liquid&lt;/a&gt; для создания шаблонов&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Простая интеграция с &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gulp&lt;/code&gt;(есть готовые &lt;a href=&quot;https://github.com/shakyShane/jekyll-gulp-sass-browser-sync&quot;&gt;решения&lt;/a&gt;)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--watch&lt;/code&gt; из коробки&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Добавление поста из черновика одной командой &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--drafts&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Хороший выбор &lt;a href=&quot;http://jekyllthemes.org/&quot;&gt;тем&lt;/a&gt; и возможность создать свою&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;проблемы-с-windows-10&quot;&gt;Проблемы с Windows 10&lt;/h2&gt;
+&lt;p&gt;Есть много подходов. Я лично использовал &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bash&lt;/code&gt; и мне не понравилось.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;На лето 2017 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bash не поддерживает --watch&lt;/code&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Файлы темы лежат вместе с остальными камнями, а значит, если вы хотите больше контроля, то рекомендую прямое скачивание и ручную установку.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Чего не сказано в разделе установки через bash? После развёртывания необходимо обновить &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Gemfile.lock&lt;/code&gt;. Эти команды распологаются на главной странице сайта.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;jekyll new &lt;span class=&quot;nb&quot;&gt;.&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;bundle &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;bundle &lt;span class=&quot;nb&quot;&gt;exec &lt;/span&gt;jekyll serve &lt;span class=&quot;nt&quot;&gt;--no-watch&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;И установить &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;nodejs&lt;/code&gt; тоже не забудьте.&lt;/p&gt;
+
+&lt;h2 id=&quot;решение&quot;&gt;Решение&lt;/h2&gt;
+&lt;p&gt;Чтобы всё стабильно работало пользуйтесь установкой с помощью &lt;a href=&quot;https://rubyinstaller.org/&quot;&gt;RubyInstaller&lt;/a&gt; и не мучайтесь.&lt;/p&gt;
+
+&lt;p&gt;Решения возникающих проблем:
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Prepending **bundle exec** to your command may solve this.&lt;/code&gt;&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;bundle clean &lt;span class=&quot;nt&quot;&gt;--force&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+</description>
+        <pubDate>Sun, 25 Jun 2017 12:19:23 +0300</pubDate>
+        <link>https://nikitait.github.io/jakyll-blog</link>
+        <guid isPermaLink="true">https://nikitait.github.io/jakyll-blog</guid>
+        
+        
+        <category>jakyll</category>
+        
+      </item>
+    
+  </channel>
+</rss>
