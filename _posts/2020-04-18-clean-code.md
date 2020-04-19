@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Чистый код?"
-date:   2017-08-13 15:46:23 +0700
+date:   2020-04-18 15:46:23 +0700
 permalink: "clean-code"
 categories: [clean-code]
 ---
