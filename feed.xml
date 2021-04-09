@@ -3,10 +3,10 @@
   <channel>
     <title>Stack Problems</title>
     <description>My Personal Stack Problems</description>
-    <link>https://nikitait.github.io/</link>
-    <atom:link href="https://nikitait.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 19 Apr 2020 11:19:14 +0300</pubDate>
-    <lastBuildDate>Sun, 19 Apr 2020 11:19:14 +0300</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 09 Apr 2021 23:13:25 +0200</pubDate>
+    <lastBuildDate>Fri, 09 Apr 2021 23:13:25 +0200</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -216,9 +216,9 @@
 
 &lt;p&gt;Откройте книгу “Совершенный код” и найдите в ней как можно больше ошибок, уверяю вас там их достаточно.&lt;/p&gt;
 </description>
-        <pubDate>Sat, 18 Apr 2020 11:46:23 +0300</pubDate>
-        <link>https://nikitait.github.io/clean-code</link>
-        <guid isPermaLink="true">https://nikitait.github.io/clean-code</guid>
+        <pubDate>Sat, 18 Apr 2020 10:46:23 +0200</pubDate>
+        <link>http://localhost:4000/clean-code</link>
+        <guid isPermaLink="true">http://localhost:4000/clean-code</guid>
         
         
         <category>clean-code</category>
@@ -233,6 +233,8 @@
 &lt;/blockquote&gt;
 
 &lt;h2 id=&quot;рекомендации&quot;&gt;Рекомендации&lt;/h2&gt;
+
+&lt;p&gt;// список в конце&lt;/p&gt;
 
 &lt;h3 id=&quot;рекомендую-начинающим&quot;&gt;Рекомендую начинающим&lt;/h3&gt;
 
@@ -333,20 +335,14 @@
 
 &lt;h2 id=&quot;в-процессе&quot;&gt;В процессе&lt;/h2&gt;
 
-&lt;p&gt;Bugaenko Egor&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Elegantnye obekty. Java edition&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.yegor256.com/&quot;&gt;Блог&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
 &lt;p&gt;Голдратт Элияху М.&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;Критическая цепь&lt;/li&gt;
+  &lt;li&gt;Критическая цепь (50%)&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Питер Сенге&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;Пятая дисциплина: Искусство и практика обучающейся организации&lt;/li&gt;
+  &lt;li&gt;Пятая дисциплина: Искусство и практика обучающейся организации (70%)&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;не-дочитано&quot;&gt;Не дочитано&lt;/h2&gt;
@@ -361,18 +357,91 @@
   &lt;li&gt;Алгоритмические трюки для программистов&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;p&gt;15th International Conference, ISPEC 2019&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Information Security Practice and Experience 2019 10.1007@978-3-030-34339-2&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Shamal Faily&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Designing Usable and Secure Software with IRIS and CAIRIS&lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;h2 id=&quot;прочитанное&quot;&gt;Прочитанное&lt;/h2&gt;
 
-&lt;p&gt;Боб Мартин&lt;/p&gt;
+&lt;h3 id=&quot;cybersec-threat-modeling-secure-software&quot;&gt;CyberSec. Threat Modeling. Secure Software&lt;/h3&gt;
+
+&lt;p&gt;Izar Tarandach and Matthew J. Coles&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;Чистый код. Создание, анализ и рефакторинг&lt;/li&gt;
-  &lt;li&gt;Чистая архитектура. Искусство разработки программного обеспечения&lt;/li&gt;
+  &lt;li&gt;Threat Modeling. A Practical Guide for Development Teams &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Тулинг&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;Adam Shostack&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Threat Modeling by design. 2014 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Мастхэв&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;K. Talukder&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Architecting Secure Software Systems Asoke. 2009 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Фундамент&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Сергей Петренко&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Киберустойчивость цифровой экономики. Как обеспечить безопасность и непрерывность бизнеса&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Кевин Митник&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Искусство обмана &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Фундамент&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Justin Seitz&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Gray Hat Python &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.py&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Brandon Perry&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Gray Hat C#: A Hacker’s Guide to Creating and Automating Security Tools &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.cs&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Jon Erickson&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;HACKING The Art of Exploitation &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.asm&lt;/code&gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Фундамент&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Péter Szőr&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;The Art of Computer Virus Research and Defense &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.py&lt;/code&gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Фундамент&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;А.И.Палий&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Радиоэлектронная борьба&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;kubernetes&quot;&gt;Kubernetes&lt;/h3&gt;
+
+&lt;p&gt;Марко Лукша&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Kubernetes в действии&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/@marko.luksa&quot;&gt;Блог&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;database&quot;&gt;Database&lt;/h3&gt;
 
 &lt;p&gt;Ben-Gan I.&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Microsoft SQL Server 2012 Osnovy T-SQL&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;Рикардо Перес&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;NHibernate Succinctly&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;frontend&quot;&gt;Frontend&lt;/h3&gt;
 
 &lt;p&gt;Фримен А.&lt;/p&gt;
 &lt;ul&gt;
@@ -384,20 +453,59 @@
   &lt;li&gt;Rashirenie biblioteki jQuery&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Гради Буч&lt;/p&gt;
+&lt;p&gt;Дэвид Сойер Макфарланд&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;Объектно-ориентированный анализ и проектирование. // c++, если вы хотите обьяснить кому-то ооп, наверное лучшее предложение&lt;/li&gt;
-  &lt;li&gt;Язык UML. Руководство пользователя // Полезно после чистой архитектуры. UML здесь не самоцель.&lt;/li&gt;
+  &lt;li&gt;Новая большая книга CSS&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Рикардо Перес&lt;/p&gt;
+&lt;p&gt;Марк Пилгрим&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;NHibernate Succinctly&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://diveintohtml5.info&quot;&gt;Погружение в HTML5&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Scott Murray&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://chimera.labs.oreilly.com/books/1230000000345/&quot;&gt;Interactive Data Visualization for the Web&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Эрик Фримен, Э. Робсон&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Изучаем программирование на JavaScript&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Стоян Стефанов&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;JavaScript. Шаблоны (не про GOF, а глубокое погружение в язык)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Кайл Симпсон&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/getify/You-Dont-Know-JS&quot;&gt;You Don’t Know JS&lt;/a&gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;All books&lt;/code&gt; // откровенно слабо, хайп не оправдан&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Adam Wathan (автор Tailwind.css)&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Refactoring UI&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;code&quot;&gt;Code&lt;/h3&gt;
+
+&lt;p&gt;Bugaenko Egor&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Elegant Objects. Java edition&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.yegor256.com/&quot;&gt;Блог&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Боб Мартин&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Чистый код. Создание, анализ и рефакторинг&lt;/li&gt;
+  &lt;li&gt;Чистая архитектура. Искусство разработки программного обеспечения&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Гради Буч&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Объектно-ориентированный анализ и проектирование. // c++, если вы хотите обьяснить кому-то ооп, наверное лучшее предложение&lt;/li&gt;
+  &lt;li&gt;Язык UML. Руководство пользователя // Полезно после чистой архитектуры. UML здесь не самоцель.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Мартин Фаулер&lt;/p&gt;
@@ -419,16 +527,6 @@
   &lt;li&gt;&lt;a href=&quot;refactoring.guru&quot;&gt;Refactoring Course(Погружение в Рефакторинг)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Джозеф Албахари&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;LINQ. Карманный справочник&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Джеффри Рихтер&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;CLR via C#. Программирование на платформе Microsoft.NET Framework 4.5 на языке C#&lt;/li&gt;
-&lt;/ul&gt;
-
 &lt;p&gt;Бертран Мейер&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Объектно-ориентированное конструирование программных систем // да, я правда её прочитал, 
@@ -441,6 +539,48 @@
 &lt;p&gt;Брюс Эккель&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Философия Java&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Игорь Одинцов&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Профессиональное программирование. Системный подход&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Сергей Орлов&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Теория и практика языков программирования&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Алан Купер&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Психбольница в руках пациентов&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;haskell&quot;&gt;Haskell&lt;/h4&gt;
+
+&lt;p&gt;Д. Шевченко&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;О Haskell по-человечески &lt;a href=&quot;https://www.ohaskell.guide/&quot;&gt;online&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;c&quot;&gt;C#&lt;/h4&gt;
+
+&lt;p&gt;Джозеф Албахари&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;LINQ. Карманный справочник&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Джеффри Рихтер&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;CLR via C#. Программирование на платформе Microsoft.NET Framework 4.5 на языке C#&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;c-1&quot;&gt;C++&lt;/h4&gt;
+
+&lt;p&gt;Павловская&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;C++. Программирование на языке высокого уровня&lt;/li&gt;
+  &lt;li&gt;С++. Объектно-ориентированное программирование. Практикум&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Сиддхартха Рао&lt;/p&gt;
@@ -464,22 +604,6 @@
   &lt;li&gt;C++ Стандартная библиотека. Для профессионалов.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Игорь Одинцов&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Профессиональное программирование. Системный подход&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Сергей Орлов&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Теория и практика языков программирования&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Павловская&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;C++. Программирование на языке высокого уровня&lt;/li&gt;
-  &lt;li&gt;С++. Объектно-ориентированное программирование. Практикум&lt;/li&gt;
-&lt;/ul&gt;
-
 &lt;p&gt;Бланшет, Саммерфилд&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;http://www.bogotobogo.com/cplusplus/files/c-gui-programming-with-qt-4-2ndedition.pdf&quot;&gt;C++ GUI Programming with Qt4&lt;/a&gt;&lt;/li&gt;
@@ -495,6 +619,8 @@
   &lt;li&gt;Qt 5.3. Профессиональное программирование на C++&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;h3 id=&quot;uml&quot;&gt;UML&lt;/h3&gt;
+
 &lt;p&gt;Перевод Д. В. Летуновского&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;http://staruml.sourceforge.net/docs/user-guide(ru)/user-guide.pdf&quot;&gt;Star UML. Руководство пользователя&lt;/a&gt;&lt;/li&gt;
@@ -505,25 +631,7 @@
   &lt;li&gt;&lt;a href=&quot;https://www.e-reading.club/book.php?book=33640&quot;&gt;Самоучитель UML&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Дэвид Сойер Макфарланд&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Новая большая книга CSS&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Марк Пилгрим&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://diveintohtml5.info&quot;&gt;Погружение в HTML5&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Scott Murray&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://chimera.labs.oreilly.com/books/1230000000345/&quot;&gt;Interactive Data Visualization for the Web&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Кевин Митник&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Искусство обмана&lt;/li&gt;
-&lt;/ul&gt;
+&lt;h3 id=&quot;ddd&quot;&gt;DDD&lt;/h3&gt;
 
 &lt;p&gt;Эрик Эванс&lt;/p&gt;
 &lt;ul&gt;
@@ -542,9 +650,9 @@
 
 &lt;p&gt;Это конечно не всё книги, меньше 10%, я слишком много читаю чтобы заносить всё в один список.&lt;/p&gt;
 </description>
-        <pubDate>Sun, 13 Aug 2017 11:46:23 +0300</pubDate>
-        <link>https://nikitait.github.io/reading-list</link>
-        <guid isPermaLink="true">https://nikitait.github.io/reading-list</guid>
+        <pubDate>Sun, 13 Aug 2017 10:46:23 +0200</pubDate>
+        <link>http://localhost:4000/reading-list</link>
+        <guid isPermaLink="true">http://localhost:4000/reading-list</guid>
         
         
         <category>portfolio</category>
@@ -719,9 +827,9 @@
     &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;proposals&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 </description>
-        <pubDate>Wed, 28 Jun 2017 00:06:23 +0300</pubDate>
-        <link>https://nikitait.github.io/freelance-students</link>
-        <guid isPermaLink="true">https://nikitait.github.io/freelance-students</guid>
+        <pubDate>Tue, 27 Jun 2017 23:06:23 +0200</pubDate>
+        <link>http://localhost:4000/freelance-students</link>
+        <guid isPermaLink="true">http://localhost:4000/freelance-students</guid>
         
         
         <category>freelance</category>
@@ -946,9 +1054,9 @@ END main&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;Это задание было практикой второго курса по направлению “Компьютерная безопасность” в моём университете.&lt;/p&gt;
 </description>
-        <pubDate>Sun, 25 Jun 2017 12:42:23 +0300</pubDate>
-        <link>https://nikitait.github.io/reverse-engineering</link>
-        <guid isPermaLink="true">https://nikitait.github.io/reverse-engineering</guid>
+        <pubDate>Sun, 25 Jun 2017 11:42:23 +0200</pubDate>
+        <link>http://localhost:4000/reverse-engineering</link>
+        <guid isPermaLink="true">http://localhost:4000/reverse-engineering</guid>
         
         
         <category>asm</category>
@@ -1022,9 +1130,9 @@ END main&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;bundle clean &lt;span class=&quot;nt&quot;&gt;--force&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 </description>
-        <pubDate>Sun, 25 Jun 2017 12:19:23 +0300</pubDate>
-        <link>https://nikitait.github.io/jakyll-blog</link>
-        <guid isPermaLink="true">https://nikitait.github.io/jakyll-blog</guid>
+        <pubDate>Sun, 25 Jun 2017 11:19:23 +0200</pubDate>
+        <link>http://localhost:4000/jakyll-blog</link>
+        <guid isPermaLink="true">http://localhost:4000/jakyll-blog</guid>
         
         
         <category>jakyll</category>
